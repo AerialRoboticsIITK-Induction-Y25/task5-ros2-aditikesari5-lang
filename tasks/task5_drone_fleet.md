@@ -31,7 +31,7 @@ Define a custom exception hierarchy using C++ standard exception mechanisms. All
         - `get_info()` (pure virtual)
         - `drain_battery(float amount)`: reduces battery, never below 0; throws `BatteryDepletedError` if already at 0.
         - `charge_battery(float amount, int duration_seconds)`: increases battery; throws `InvalidStateError` if not in charging state.
-        - `is_critical()`: returns `bool`.
+        - `cis_critical()`: returns `bool`.
         - `get_flight_log()`: returns log as formatted `std::string`.
         - Appropriate getters for all private members (no public setters for battery or status directly).
 

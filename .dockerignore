@@ -1,0 +1,35 @@
+# Git files
+.git
+.gitignore
+.github
+
+# ROS build directories
+build
+install
+log
+devel
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker files (don't copy into image)
+Dockerfile
+.dockerignore
+run.sh
+
+# Documentation
+README.md
+*.md
